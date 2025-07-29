@@ -37,7 +37,7 @@ const NavBar = () => {
     <nav className="bg-white">
       <div className="flex items-center justify-between max-w-screen-lg mx-auto w-full px-8 py-8">
         <Link href="/" passHref>
-          <img src="../logo.png" className="h-8" />
+          <img src="../logos/logo.png" className="h-8" />
         </Link>
 
         {/* Desktop Navigation */}

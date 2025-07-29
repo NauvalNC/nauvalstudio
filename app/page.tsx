@@ -29,7 +29,7 @@ export default function Home() {
             </Link>
             <img
               className="rounded-md w-full h-125 object-cover"
-              src="../banner0.png"
+              src="../banners/banner0.png"
             />
           </>
         }
@@ -37,7 +37,7 @@ export default function Home() {
       {/* Section - Commission */}
       <HeroCard
         title="Custom 3D Models"
-        imageSrc="../banner3.png"
+        imageSrc="../banners/banner3.png"
         content={
           <>
             <p>
@@ -47,14 +47,14 @@ export default function Home() {
               to achieve your vision through 3D models.
             </p>
             <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-              <img className="h-8 w-auto max-w-lg" src="../warudo.png" />
+              <img className="h-8 w-auto max-w-lg" src="../icons/warudo.png" />
               <img
                 className="h-8 w-auto max-w-lg invert"
-                src="../unreal_engine.svg"
+                src="../icons/unreal_engine.svg"
               />
               <img
                 className="h-8 w-auto max-w-lg invert"
-                src="../unity_engine.svg"
+                src="../icons/unity_engine.svg"
               />
             </div>
             <Link href="/commission">
@@ -74,14 +74,14 @@ export default function Home() {
         <h2 className="text-4xl font-bold">What Am I Doing?</h2>
         <div className="flex flex-col md:flex-row gap-6 items-stretch">
           <BasicCard
-            imageSrc="../banner1.png"
+            imageSrc="../banners/banner1.png"
             title="Custom 3D Models"
             description="Whether it is for VTubers, games, or animation, I can help you with with to achieve your vision."
             buttonText="Order Commission"
             href="/commission"
           />
           <BasicCard
-            imageSrc="../banner2.png"
+            imageSrc="../banners/banner2.png"
             title="Content Creation"
             description="I also have YouTube channel to share my knowledge and works through videos and live streams."
             buttonText="Visit My Channel"
@@ -89,7 +89,7 @@ export default function Home() {
             hrefTarget="_blank"
           />
           <BasicCard
-            imageSrc="../banner3.png"
+            imageSrc="../banners/banner3.png"
             title="Software Engineering"
             description="I also worked as professionally as software engineer, mainly using C++ and C# to build SDK."
             buttonText="Visit My LinkedIn"

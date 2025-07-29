@@ -11,7 +11,7 @@ const Contact = () => {
       <ColumnTitle
         title="Business and Commission Inquiries"
         description="Ready to work together? Whether it is 3D models or software engineering, just hit me a message through one of the following contacts. I am excited to work with you!"
-        imageSrc="../banner1.png"
+        imageSrc="../banners/banner1.png"
         content={
           <>
             <Link

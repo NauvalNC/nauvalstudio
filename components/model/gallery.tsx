@@ -1,11 +1,11 @@
 const Gallery = () => {
   const images = [
-    "../banner1.png",
-    "../banner2.png",
-    "../banner3.png",
-    "../banner3.png",
-    "../banner1.png",
-    "../banner2.png",
+    "../showcases/banner1.png",
+    "../showcases/banner2.png",
+    "../showcases/banner3.png",
+    "../showcases/banner3.png",
+    "../showcases/banner1.png",
+    "../showcases/banner2.png",
   ];
 
   return (

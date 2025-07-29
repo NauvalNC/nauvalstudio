@@ -33,7 +33,7 @@ const Footer = () => {
           ))}
         </div>
         <Link href="/" passHref>
-          <img className="h-8 hidden md:block" src="../logo_white.png" />
+          <img className="h-8 hidden md:block" src="../logos/logo_white.png" />
         </Link>
       </div>
     </footer>

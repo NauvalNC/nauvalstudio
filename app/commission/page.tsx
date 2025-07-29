@@ -31,13 +31,16 @@ const Commission = () => {
             <div className="flex flex-col items-center gap-4 md:flex-row sm:justify-between">
               <img
                 className="h-12 w-auto max-w-lg invert"
-                src="../warudo.png"
+                src="../icons/warudo.png"
               />
               <img
                 className="h-12 w-auto max-w-lg"
-                src="../unreal_engine.svg"
+                src="../icons/unreal_engine.svg"
               />
-              <img className="h-12 w-auto max-w-lg" src="../unity_engine.svg" />
+              <img
+                className="h-12 w-auto max-w-lg"
+                src="../icons/unity_engine.svg"
+              />
             </div>
 
             <div className="flex flex-col items-stretch md:flex-row gap-4">
@@ -69,7 +72,7 @@ const Commission = () => {
         {/* Section - Full Body */}
         <HeroCard
           title="Full Size Character"
-          imageSrc="../banner3.png"
+          imageSrc="../banners/banner3.png"
           content={
             <>
               <div>
@@ -136,7 +139,7 @@ const Commission = () => {
         {/* Section - Chibi */}
         <HeroCard
           title="Chibi Character"
-          imageSrc="../banner2.png"
+          imageSrc="../banners/banner2.png"
           content={
             <>
               <div>

@@ -9,7 +9,7 @@ const Shop = () => {
       <ColumnTitle
         title="Shop is Under Development"
         description="Hi! Thank you for visiting this shop page! I am currently developing a new integrated shop where you can download my assets in one single source. However, you can still explore my published assets on my official third-party shops."
-        imageSrc="../banner1.png"
+        imageSrc="../banners/banner1.png"
         content={
           <>
             <Link
