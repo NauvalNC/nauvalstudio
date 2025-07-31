@@ -7,7 +7,7 @@ const Footer = () => {
   const links = [
     { href: "https://www.patreon.com/c/nauvalnever", icon: <FaPatreon /> },
     { href: "https://x.com/nauvalnever", icon: <FaXTwitter /> },
-    { href: "https://discord.gg/nauvernever", icon: <FaDiscord /> },
+    { href: "https://discord.gg/5tP7yMs2", icon: <FaDiscord /> },
     { href: "https://www.youtube.com/@NauvalStudio", icon: <FaYoutube /> },
     { href: "mailto:nauvernever@gmail.com", icon: <RiMailFill /> },
   ];

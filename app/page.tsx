@@ -1,4 +1,5 @@
 import BasicCard from "@/components/model/basic-card";
+import Carousel from "@/components/model/carousel";
 import HeroCard from "@/components/model/hero-card";
 import HeroTitle from "@/components/model/hero-title";
 import Testimony from "@/components/model/testimony";
@@ -27,17 +28,14 @@ export default function Home() {
                 Explore Shop
               </Button>
             </Link>
-            <img
-              className="rounded-md w-full h-125 object-cover"
-              src="../banners/banner0.png"
-            />
+            <Carousel />
           </>
         }
       />
       {/* Section - Commission */}
       <HeroCard
         title="Custom 3D Models"
-        imageSrc="../banners/banner3.png"
+        imageSrc="../banners/charlotte.png"
         content={
           <>
             <p>
@@ -74,14 +72,14 @@ export default function Home() {
         <h2 className="text-4xl font-bold">What Am I Doing?</h2>
         <div className="flex flex-col md:flex-row gap-6 items-stretch">
           <BasicCard
-            imageSrc="../banners/banner1.png"
+            imageSrc="../banners/yuzu.png"
             title="Custom 3D Models"
             description="Whether it is for VTubers, games, or animation, I can help you with with to achieve your vision."
             buttonText="Order Commission"
             href="/commission"
           />
           <BasicCard
-            imageSrc="../banners/banner2.png"
+            imageSrc="../banners/ellen.png"
             title="Content Creation"
             description="I also have YouTube channel to share my knowledge and works through videos and live streams."
             buttonText="Visit My Channel"
@@ -89,7 +87,7 @@ export default function Home() {
             hrefTarget="_blank"
           />
           <BasicCard
-            imageSrc="../banners/banner3.png"
+            imageSrc="../banners/charlotte.png"
             title="Software Engineering"
             description="I also worked as professionally as software engineer, mainly using C++ and C# to build SDK."
             buttonText="Visit My LinkedIn"

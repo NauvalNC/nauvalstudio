@@ -72,7 +72,7 @@ const Commission = () => {
         {/* Section - Full Body */}
         <HeroCard
           title="Full Size Character"
-          imageSrc="../banners/banner3.png"
+          imageSrc="../banners/charlotte.png"
           content={
             <>
               <div>
@@ -139,7 +139,7 @@ const Commission = () => {
         {/* Section - Chibi */}
         <HeroCard
           title="Chibi Character"
-          imageSrc="../banners/banner2.png"
+          imageSrc="../banners/ellen.png"
           content={
             <>
               <div>

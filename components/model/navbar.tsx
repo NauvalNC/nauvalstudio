@@ -27,6 +27,11 @@ const NavBar = () => {
       openNewTab: true,
     },
     {
+      href: "https://discord.gg/5tP7yMs2",
+      label: "Discord",
+      openNewTab: true,
+    },
+    {
       href: "https://www.patreon.com/c/nauvalnever",
       label: "Patreon",
       openNewTab: true,

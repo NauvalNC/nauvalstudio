@@ -11,7 +11,7 @@ const Contact = () => {
       <ColumnTitle
         title="Business and Commission Inquiries"
         description="Ready to work together? Whether it is 3D models or software engineering, just hit me a message through one of the following contacts. I am excited to work with you!"
-        imageSrc="../banners/banner1.png"
+        imageSrc="../banners/ellen.png"
         content={
           <>
             <Link
@@ -28,7 +28,7 @@ const Contact = () => {
               </Button>
             </Link>
             <Link
-              href="https://discord.gg/nauvernever"
+              href="https://discord.gg/5tP7yMs2"
               target="_blank"
               rel="noopener noreferrer"
             >
