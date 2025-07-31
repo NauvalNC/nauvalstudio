@@ -1,4 +1,5 @@
 import { showcaseImages } from "@/lib/utils";
+import Image from "next/image";
 
 const Gallery = () => {
   return (
@@ -11,13 +12,13 @@ const Gallery = () => {
             key={idx}
             style={{ minHeight: 200 }}
           >
-            <img
+            <Image
               src={src}
               className="absolute inset-0 w-full h-full object-cover filter blur-md scale-110"
               alt=""
               aria-hidden="true"
             />
-            <img
+            <Image
               src={src}
               className="hover:cursor-pointer relative w-full h-150 rounded-md object-scale-down transition-transform duration-300 group-hover:scale-110"
               alt={`Gallery image ${idx + 1}`}
