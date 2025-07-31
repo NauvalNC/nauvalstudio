@@ -2,6 +2,7 @@ import ColumnTitle from "@/components/model/column-title";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { FaCartShopping } from "react-icons/fa6";
+import { RiMailFill } from "react-icons/ri";
 
 const Shop = () => {
   return (
@@ -23,6 +24,15 @@ const Shop = () => {
                 className="w-full"
               >
                 Explore Assets on CGTrader
+              </Button>
+            </Link>
+            <Link href="/commission">
+              <Button
+                variant="destructive"
+                leftIcon={<RiMailFill />}
+                className="w-full mt-auto"
+              >
+                Order Custom Assets Commission
               </Button>
             </Link>
           </>
