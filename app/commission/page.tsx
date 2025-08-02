@@ -69,6 +69,30 @@ const Commission = () => {
       {/* Section - Commission */}
       <div className="flex flex-col gap-8" ref={pricingPlansTarget}>
         <h2 className="text-4xl font-bold">Pricing & Plans</h2>
+        {/* Section - Payment Options */}
+        <div className="flex flex-col w-full gap-4 border rounded-md p-6">
+          <p className="font-bold">Commission Notes</p>
+          <ul className="list-disc pl-6">
+            <li>
+              The pricing displayed here are reference. It is flexible depending
+              on your desired complexity and budget. Feel free to contact me for
+              more information.
+            </li>
+            <li>
+              The preferred payment method is via <b>PayPal</b>, if you need
+              other payment method, feel free to contact me.
+            </li>
+            <li>
+              Payment can be made using full upfront or two installments. For
+              installments, the first payment is 50% of the total price, and the
+              second payment is due before the final delivery.
+            </li>
+            <li>
+              During the commission process, I will provide updates and previews
+              of the model periodically.
+            </li>
+          </ul>
+        </div>
         {/* Section - Full Body */}
         <HeroCard
           title="Full Size Character"
