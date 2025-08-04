@@ -14,9 +14,7 @@ export default function Home() {
       {/* Section - Hero Title */}
       <HeroTitle
         title="Welcome to Nauval Studio"
-        description="Hi! My name is Nauval. I am a Software Engineer and 3D Model Designer. I
-        build this website to share and trying to help people to create contents
-        using my works."
+        description="Hi! My name is Nauval. I am a Software Engineer and 3D Model Designer. I work professionally as a software engineer, mainly developing SDKs in C++ and C# to help game developers integrate online services. I also work as a freelance 3D artist, and I built this website to share my work and help others create content with it."
         content={
           <>
             <Link href="/shop">
