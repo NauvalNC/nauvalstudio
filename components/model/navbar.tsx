@@ -27,7 +27,7 @@ const NavBar = () => {
       openNewTab: true,
     },
     {
-      href: "https://discord.gg/5tP7yMs2",
+      href: "https://discord.gg/CcxKZ5BJcB",
       label: "Discord",
       openNewTab: true,
     },
